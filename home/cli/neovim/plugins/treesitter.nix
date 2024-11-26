@@ -2,12 +2,24 @@
   programs.nixvim.plugins = {
     treesitter = {
       enable = true;
-
+      grammarPackages = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
+            bash
+            lua
+            make
+            markdown
+            nix
+            regex
+            vim
+            vimdoc
+            yaml
+          ];
       nixvimInjections = true;
 
       folding = true;
       settings = {
-        indent = true;
+        indent {
+          enable = true;
+        };
       };
     };
 
