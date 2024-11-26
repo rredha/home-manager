@@ -19,6 +19,7 @@
     luaLoader.enable = true;
 
     colorschemes.oxocarbon.enable = true;
+    plugins.web-devicons.enable = true;
  };
 
     # Colorschemes To try

@@ -95,7 +95,6 @@
       zotero
       mesa
       mesa.drivers
-      webkitgtk
       picom
       fzf
       ripgrep

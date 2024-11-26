@@ -4,7 +4,7 @@
       font = {
         name = "proggy";
         package = pkgs.proggyfonts;
-        size = 16;
+        size = 14;
       };
     };
 }

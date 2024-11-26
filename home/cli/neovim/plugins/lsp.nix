@@ -25,7 +25,7 @@
         servers = {
           #omnisharp.enable = true;
           #csharp-ls.enable = true;
-          lua-ls.enable = true;
+          lua_ls.enable = true;
           texlab.enable = true;
           ccls.enable = true;
         };
