@@ -1,3 +1,4 @@
+{ pkgs , ... }:
 {
   programs.nixvim.plugins = {
     treesitter = {
@@ -17,7 +18,7 @@
 
       folding = true;
       settings = {
-        indent {
+        indent = {
           enable = true;
         };
       };
