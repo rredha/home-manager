@@ -119,7 +119,7 @@
       mpv
       zathura
       flameshot
-      transmission-4qt
+      transmission_4
       qutebrowser
       simple-scan
       brave
