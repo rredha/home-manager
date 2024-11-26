@@ -93,7 +93,6 @@
   home.packages = with pkgs; [
       unzip
       zotero
-      orca-slicer
       mesa
       mesa.drivers
       webkitgtk
