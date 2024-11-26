@@ -1,6 +1,4 @@
-{ pkgs, ... }:
+{ inputs, config, pkgs, lib, nixpkgs, ... }:
 {
-  programs.orca-slicer = {
-    enable = true;
-  };
+  home.packages = [ pkgs.orca-slicer];
 }
