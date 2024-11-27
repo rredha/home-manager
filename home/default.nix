@@ -100,7 +100,6 @@
       ripgrep
       mytex
       rider
-      unityhub
       lynx
       tree
       tldr
