@@ -1,4 +1,5 @@
-{ lib
+{ input
+, lib
 , stdenv
 , fetchurl
 , dpkg
