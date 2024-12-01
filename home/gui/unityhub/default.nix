@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   pname = "unityhub";
   version = "3.10.0";
 
-  src = ~/dwn/web/unityhub-amd64-3.10.0.deb;
+  src = /home/redha/dwn/web/unityhub-amd64-3.10.0.deb;
 
   nativeBuildInputs = [
     dpkg
