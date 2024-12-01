@@ -1,4 +1,5 @@
-{ lib
+{ inputs
+, lib
 , stdenv
 , fetchurl
 , dpkg
@@ -6,7 +7,7 @@
 , buildFHSEnv
 , extraPkgs ? pkgs: [ ]
 , extraLibs ? pkgs: [ ]
-... }:
+}:
 
 stdenv.mkDerivation rec {
   pname = "unityhub";
