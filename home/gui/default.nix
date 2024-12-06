@@ -4,6 +4,7 @@
  imports = [
     ./kitty
     ./orca-slicer
+    ./rider
  ];
 
 }

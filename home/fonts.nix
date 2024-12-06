@@ -1,4 +1,5 @@
 { inputs, config, pkgs, lib, nixpkgs, ... }:
+{
   home.packages = with pkgs; [
       nerd-fonts.jetbrains-mono
       nerd-fonts.proggy-clean-tt
