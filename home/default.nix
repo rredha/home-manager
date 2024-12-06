@@ -3,7 +3,7 @@
   let
    extra-path = with pkgs; [
    # Add accessible binaries to Rider
-       dotnetCorePackages.sdk_6_0
+       dotnetCorePackages.sdk_8_0
        dotnetPackages.Nuget
        mono
        msbuild
@@ -57,6 +57,7 @@
 #   inputs.nixvim.homeManagerModules.nixvim
     ./cli
     ./gui
+    ./fonts.nix
  ];
 
   # Allow unfree packages
