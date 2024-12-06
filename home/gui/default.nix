@@ -4,7 +4,6 @@
  imports = [
     ./kitty
     ./orca-slicer
-    #./unityhub
  ];
 
 }
