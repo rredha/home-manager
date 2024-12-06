@@ -110,7 +110,6 @@
       gh
       freecad
       kicad
-      nerdfonts
       pavucontrol
       obsidian
       glow
