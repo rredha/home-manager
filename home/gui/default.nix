@@ -5,6 +5,7 @@
     ./kitty
     ./orca-slicer
     ./rider
+    ./openscad
  ];
 
 }
